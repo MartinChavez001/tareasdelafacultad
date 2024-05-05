@@ -1,0 +1,246 @@
+import time
+print("----------------PREGUNTADOS---------------")
+time.sleep (2)
+print("Bienvenidos jugadores, digame sus nombres antes de arrancar")
+
+j1=str()
+j1="";
+j2=str()
+j2:"";
+
+j1=str(input("Introduzca el nombre del jugardor 1="))
+j2=str(input("Introduzca el nombre del jugardor 2="))
+
+
+
+print("Excelente, ¡Comenzemos!")
+time.sleep (2)
+
+#PREGUNTA 1
+print("PREGUNTA 1")
+
+time.sleep (2)
+
+print("¿En que año se declara la independencia de Argentina?");
+
+print("Opcion 1=1810")
+
+print("Opcion 2=1816")
+
+print("Opcion 3=1852")
+
+# Inicializar los puntos de los jugadores
+pts_j1 = 0
+pts_j2 = 0
+
+# Solicitar respuestas de los jugadores
+game1j1 = input("Jugador 1, ingrese el número de su respuesta (1 al 3): ")
+game1j2 = input("Jugador 2, ingrese el número de su respuesta (1 al 3): ")
+
+# Verificar si las respuestas de los jugadores son correctas
+if game1j1 == '2':
+    print("Jugador 1, ¡respuesta correcta!")
+    pts_j1 += 1
+else:
+    print("Jugador 1, respuesta incorrecta")
+
+if game1j2 == '2':
+    print("Jugador 2, ¡respuesta correcta!")
+    pts_j2 += 1
+else:
+    print("Jugador 2, respuesta incorrecta")
+
+# Resultado de los puntajes
+
+time.sleep (2)
+
+print("-----------------PUNTAJES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 1 son=",pts_j2)
+
+print("-----------------PUNTAJES-----------------")
+
+time.sleep (2)
+
+print("Vamos con la segunda pregunta")
+
+#PREGUNTA 2
+print("----------------PREGUNTA 2----------------")
+
+time.sleep (2)
+
+print("¿En que año ocurrio la guerra de Malvinas?");
+
+print("Opcion 1=1912")
+
+print("Opcion 2=1989")
+
+print("Opcion 3=1983")
+
+# Solicitar respuestas de los jugadores
+game2j1 = input("Jugador 1, ingrese el número de su respuesta (1 al 3): ")
+game2j2 = input("Jugador 2, ingrese el número de su respuesta (1 al 3): ")
+
+# Verificar si las respuestas de los jugadores son correctas
+if game2j1 == '3':
+    print("Jugador 1, ¡respuesta correcta!")
+    pts_j1 += 1
+else:
+    print("Jugador 1, respuesta incorrecta")
+
+if game2j2 == '3':
+    print("Jugador 2, ¡respuesta correcta!")
+    pts_j2 += 1
+else:
+    print("Jugador 2, respuesta incorrecta")
+
+# Resultado de los puntajes
+
+time.sleep (2)
+
+print("-----------------PUNTAJES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 2 son=",pts_j2)
+
+print("-----------------PUNTAJES-----------------")
+
+time.sleep (2)
+
+#PREGUNTA 3
+print("----------------PREGUNTA 3----------------")
+
+time.sleep (2)
+
+print("¿Cuántas provincias tiene Argentina?");
+
+print("Opcion 1=23")
+
+print("Opcion 2=21")
+
+print("Opcion 3=24")
+
+# Solicitar respuestas de los jugadores
+game3j1 = input("Jugador 1, ingrese el número de su respuesta (1 al 3): ")
+game3j2 = input("Jugador 2, ingrese el número de su respuesta (1 al 3): ")
+
+# Verificar si las respuestas de los jugadores son correctas
+if game3j1 == '1':
+    print("Jugador 1, ¡respuesta correcta!")
+    pts_j1 += 1
+else:
+    print("Jugador 1, respuesta incorrecta")
+
+if game3j2 == '1':
+    print("Jugador 2, ¡respuesta correcta!")
+    pts_j2 += 1
+else:
+    print("Jugador 2, respuesta incorrecta")
+
+# Resultado de los puntajes
+
+time.sleep (2)
+
+print("-----------------PUNTAJES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 2 son=",pts_j2)
+
+print("-----------------PUNTAJES-----------------")
+
+time.sleep (2)
+
+#PREGUNTA 4
+print("----------------PREGUNTA 4----------------")
+
+time.sleep (2)
+
+print("¿Cuántas estrellas tiene la Bandera de Argentina?");
+
+print("Opcion 1=1")
+
+print("Opcion 2=0")
+
+print("Opcion 3=4")
+
+# Solicitar respuestas de los jugadores
+game4j1 = input("Jugador 1, ingrese el número de su respuesta (1 al 3): ")
+game4j2 = input("Jugador 2, ingrese el número de su respuesta (1 al 3): ")
+
+# Verificar si las respuestas de los jugadores son correctas
+if game4j1 == '0':
+    print("Jugador 1, ¡respuesta correcta!")
+    pts_j1 += 1
+else:
+    print("Jugador 1, respuesta incorrecta")
+
+if game4j2 == '0':
+    print("Jugador 2, ¡respuesta correcta!")
+    pts_j2 += 1
+else:
+    print("Jugador 2, respuesta incorrecta")
+
+# Resultado de los puntajes
+
+time.sleep (2)
+
+print("-----------------PUNTAJES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 2 son=",pts_j2)
+
+print("-----------------PUNTAJES-----------------")
+
+time.sleep (2)
+
+#PREGUNTA 5
+print("----------------PREGUNTA 5----------------")
+
+time.sleep (2)
+
+print("¿Cuantos golpes de Estado tuvo Argentina?");
+
+print("Opcion 1=5")
+
+print("Opcion 2=9")
+
+print("Opcion 3=6")
+
+# Solicitar respuestas de los jugadores
+game5j1 = input("Jugador 1, ingrese el número de su respuesta (1 al 3): ")
+game5j2 = input("Jugador 2, ingrese el número de su respuesta (1 al 3): ")
+
+# Verificar si las respuestas de los jugadores son correctas
+if game5j1 == '6':
+    print("Jugador 1, ¡respuesta correcta!")
+    pts_j1 += 1
+else:
+    print("Jugador 1, respuesta incorrecta")
+
+if game5j2 == '6':
+    print("Jugador 2, ¡respuesta correcta!")
+    pts_j2 += 1
+else:
+    print("Jugador 2, respuesta incorrecta")
+
+# Resultado de los puntajes
+
+time.sleep (2)
+
+print("-----------------PUNTAJES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 2 son=",pts_j2)
+
+time.sleep (2)
+
+print("---------------FELICITACIONES COMPLETARON EL JUEGO-----------------")
+
+time.sleep (2)
+print("---------------PUNTAJES FINALES-----------------")
+
+print("Los puntos del jugador 1 son=",pts_j1)
+print("Los puntos del jugador 2 son=",pts_j2)
+
+print("---------------FIN DEL JUEGO-----------------")
